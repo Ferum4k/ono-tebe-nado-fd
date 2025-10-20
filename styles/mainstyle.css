@@ -1,0 +1,308 @@
+.cover {
+    background-color: white;
+    position: relative;
+    height: 757px;
+    color: white;
+}
+
+.main-overlay {
+    position: absolute;
+    min-height: 757px;
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+}
+
+.hover-title{
+    position: absolute;
+    width: 1000px;
+    height: 385px;
+    left: 50px;
+    top: 165px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 33px;
+    gap: 20px;
+}
+
+.second {
+    align-self: center;
+}
+
+.third {
+    align-self: flex-end;
+    margin-right: -33px;
+}
+
+.description {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 51px;
+    left: 50px;
+    top: 656px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-text {
+    font-size: 22px;
+    word-spacing: 22px;
+    text-transform: uppercase;
+}
+
+.description-button {
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.lots {
+    height: 723px;
+    width: 1052px;
+    background-color: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 180px;
+}
+
+.lots-h2 {
+    text-transform: uppercase;
+    color: black;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lots-list {
+    list-style: none;
+    background-color: white;
+    width: 1052px;
+    height: 596px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.lots-li {
+    width: 334px;
+    height: 596px;
+}
+
+.lots-a {
+    display: flex;
+    text-decoration: none;
+    width: 334px;
+    height: 596px;
+}
+
+.lots-article {
+    position: relative;
+    width: 334px;
+    height: 596px;
+}
+
+.lots-overlay1 {
+    position: absolute;
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/card-lot-01.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.lots-overlay2 {
+    position: absolute;
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/card-lot-02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots-overlay3 {
+    position: absolute;
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/card-lot-03.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots-article-text {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 48px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: bold;
+    text-decoration-thickness: 1px;
+}
+
+.lots-article-text-p {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    margin-right: 40px;
+    margin-top: 404px;
+}
+
+.lots-article-text-p2 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    margin-right: 40px;
+    margin-top: 188px;
+}
+
+.lots-article-text-p3 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    margin-right: 40px;
+    margin-top: 284px;
+}
+
+.lots-more {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    display: inline-block;
+    text-decoration-thickness: 1px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    height: 595px;
+    width: 1052px;
+    justify-self: center;
+    gap: 72px;
+}
+
+.logo-column {
+    width: 240px;
+    height: 240px;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 35px;
+}
+
+.logo-photo{
+    width: 148px;
+    height: 114px;
+}
+
+.about-column {
+    width: 693px;
+    height: 449px;
+    justify-self: end;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-block {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.about-title {
+    display: flex;
+    justify-self: start;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 180px;
+    background-color: white;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: top;
+}
+
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: start;
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 18px;
+    word-break: normal;
+    max-width: 220px;
+}
+
+.footer-menu {
+    display: flex;
+    margin-left: 50px;
+    font-size: 18px;
+    flex-direction: column;
+    min-width: 164px;
+    align-items: center;
+}
+
+.footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    align-items: center;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    gap: 48px;
+    list-style: none;
+    margin-left: 175px;
+}
