@@ -15,7 +15,7 @@
     height: 100%;
 }
 
-.hover-title{
+.hover-title {
     position: absolute;
     width: 1000px;
     height: 385px;
@@ -212,6 +212,7 @@ h1 {
     width: 1052px;
     justify-self: center;
     gap: 72px;
+    margin-top: 120px;
 }
 
 .logo-column {
@@ -226,7 +227,7 @@ h1 {
     margin-top: 35px;
 }
 
-.logo-photo{
+.logo-photo {
     width: 148px;
     height: 114px;
 }
