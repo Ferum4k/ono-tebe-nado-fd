@@ -126,7 +126,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .lots-article-text {
@@ -221,7 +221,6 @@ h1 {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    
 }
 
 .address-block-footer {
