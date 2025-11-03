@@ -12,7 +12,7 @@
     margin-left: 50px;
     font-size: 18px;
     gap: 32.5px;
-    margin-top: -5px;
+    margin-bottom: 5px;
 }
 
 .header-menu-list {
@@ -22,7 +22,7 @@
     text-underline-offset: 4px;
 }
 
-li:first-child {
+.li-no-style {
     list-style: none;
 }
 
@@ -45,7 +45,6 @@ li:first-child {
     font-size: 18px;
     word-break: normal;
     max-width: 220px;
-    height: 98px;
     line-height: 24.5px;
 }
 

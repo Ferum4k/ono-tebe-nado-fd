@@ -4,11 +4,13 @@
     color: white;
     width: 100%;
     background-image: url('../images/cover.jpg');
-    background-size: cover;
+    background-size: cover; 
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 
 .overlay {
@@ -22,8 +24,8 @@
 .hover-title {
     position: relative;
     width: 1000px;
-    left: 50px;
-    top: 165px;
+    margin-left: 50px;
+    margin-top: 165px;
 }
 
 h1 {
@@ -43,24 +45,25 @@ h1 {
 .aligned-text {
     align-self: center;
     margin-left: 31px;
-    margin-top: -4px;
+    margin-bottom: 4px;
 }
 
 .aligned-text_right {
-    margin-top: 0px;
+    margin-top: -10px;
     align-self: flex-end;
     margin-right: -30px;
 }
 
 .description {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 1000px;
     left: 50px;
-    top: 656px;
+    padding-bottom: 50px;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 .description-text {
@@ -115,7 +118,7 @@ h1 {
     display: flex;
     text-decoration: none;
     width: 334px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .lots-article {
@@ -127,6 +130,20 @@ h1 {
     justify-content: space-between;
     color: white;
     z-index: 1;
+    background-size: cover; 
+    background-position: center;
+}
+
+.lots-article-film {
+    background-image: url('../images/card-lot-01.jpg'); 
+}
+
+.lots-article-kniga {
+    background-image: url('../images/card-lot-02.jpg');
+}
+
+.lots-article-kartina {
+    background-image: url('../images/card-lot-03.jpg');
 }
 
 .lots-article-text {
@@ -221,12 +238,12 @@ h1 {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
+    padding-bottom: 82px;
 }
 
 .address-block-footer {
     justify-self: start;
     margin-left: 50px;
-    max-height: 98px;
     line-height: 25px;
     word-break: keep-all;
     min-width: 250px;
