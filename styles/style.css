@@ -4,13 +4,12 @@
     color: white;
     width: 100%;
     background-image: url('../images/cover.jpg');
-    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+    background-size: cover;
 }
 
 .overlay {
@@ -130,12 +129,12 @@ h1 {
     justify-content: space-between;
     color: white;
     z-index: 1;
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
 }
 
 .lots-article-film {
-    background-image: url('../images/card-lot-01.jpg'); 
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .lots-article-kniga {
