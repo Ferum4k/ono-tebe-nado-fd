@@ -54,11 +54,8 @@ h1 {
 }
 
 .description {
-    position: relative;
     display: flex;
     flex-direction: row;
-    width: 1000px;
-    left: 50px;
     padding-bottom: 50px;
     justify-content: space-between;
     align-items: center;
@@ -69,6 +66,7 @@ h1 {
     font-size: 22px;
     word-spacing: 19px;
     text-transform: uppercase;
+    padding-left: 50px;
 }
 
 .description-button {
@@ -79,6 +77,7 @@ h1 {
     color: white;
     border: 1px solid white;
     text-transform: uppercase;
+    margin-right: 50px;
 }
 
 .lots {
